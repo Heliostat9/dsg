@@ -1,0 +1,1 @@
+<?php $db = mysqli_connect("localhost","root","root") or die(mysql_error());mysqli_select_db($db, "users") or die("Ошибка выбора БД");?>
